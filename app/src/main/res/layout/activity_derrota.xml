@@ -5,38 +5,34 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".premio">
+    tools:context=".Derrota">
+
+    <ImageView
+        android:id="@+id/imgtriste"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="100dp"
+        tools:srcCompat="@drawable/triste" />
 
     <TextView
-        android:id="@+id/txtmensaje"
+        android:id="@+id/txtMensaje"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Ha ganado una entrada al cine"
-        android:layout_marginTop="50dp"
-        android:layout_marginLeft="100dp"/>
+        android:layout_marginLeft="120dp"
+        android:text="Lo siento, has perdido" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        tools:srcCompat="@drawable/emoji"
-        android:layout_marginTop="50dp"
-        android:layout_marginLeft="150dp"/>
-
-    <ImageView
-        android:id="@+id/imgQR"
+    <Button
+        android:id="@+id/btnPrincipal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:srcCompat="@drawable/qr"
-        android:layout_marginTop="80dp"
-        />
+        android:onClick="Principal"
+        android:text="Volver a Jugar" />
 
     <Button
         android:id="@+id/btnSalir"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button"
-        android:layout_marginTop="90dp"/>
+        android:text="Salir" />
 
 
 </LinearLayout>
