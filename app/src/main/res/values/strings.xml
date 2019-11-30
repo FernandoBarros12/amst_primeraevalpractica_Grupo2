@@ -1,4 +1,5 @@
 <resources>
+    <string name="app_name">amst_primeraevalpractica_g#2</string>
     <string name="empezar">EMPEZAR</string>
     <string name="trivia">Trivia Magica</string>
     <string name="creador1">Desarrollado por Dayana Garzón</string>

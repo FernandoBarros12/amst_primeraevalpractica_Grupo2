@@ -5,19 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Preguntas">
+    tools:context=".Preguntas5">
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:srcCompat="@drawable/elsa" />
+        android:layout_height="200dp"
+        tools:srcCompat="@drawable/titanic" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Como se llama la protagonista de frozen?" />
+        android:text="Como se llama la pelicula?" />
 
     <Button
         android:id="@+id/button"
@@ -38,9 +38,9 @@
         android:text="Anita" />
 
     <Button
-        android:id="@+id/btnCorrecto"
+        android:id="@+id/btnCorrecto5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="onClick"
-        android:text="Elsa" />
+        android:text="titanic" />
 </LinearLayout>
