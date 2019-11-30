@@ -13,7 +13,7 @@ public class Derrota extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_derrota);
-        final Button boton_salida = (Button)findViewById(R.id.btnSalir);
+        final Button boton_salida = findViewById(R.id.btnSalir);
         boton_salida.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
